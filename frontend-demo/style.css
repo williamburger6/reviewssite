@@ -1,0 +1,19 @@
+.container {
+  background-color: #cccc;
+  margin: auto;
+  max-width: 1200px;
+}
+
+#logo {
+  padding: 50px;
+}
+
+div h2 {
+  text-align: center;
+}
+
+#heroImage {
+  margin: auto;
+  max-width: 80%;
+  height: auto;
+}

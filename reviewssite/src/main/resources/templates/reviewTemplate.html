@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${reviewModel.title}">A course</title>
+
+</head>
+<body>
+
+<header>
+    <h1 th:text="${reviewModel.title}">A Course</h1>
+</header>
+<section class="images">
+    <img th:src="|/images/${reviewModel.image}.jpg|" />
+
+<main>
+    <ul>
+        <p><a href="/reviews">Reviews</a></p>
+
+
+    </ul>
+    <h2 th:text="${reviewModel.reviewCategory}"></h2>
+    <h2 th:text="${reviewModel.content}"></h2>
+    <h2 th:text="${reviewModel.accessor}"></h2>
+</main>
+
+<footer>
+    <small>&copy Will WCCI 2020</small>
+</footer>
+
+</body>
+</html>
