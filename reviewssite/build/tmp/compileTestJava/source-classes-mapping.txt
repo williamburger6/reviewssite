@@ -1,0 +1,6 @@
+org/wecancodeit/reviewssite/ReviewssiteApplicationTests.java
+ org.wecancodeit.reviewssite.ReviewssiteApplicationTests
+org/wecancodeit/reviewssite/ReviewsRepositoryTest.java
+ org.wecancodeit.reviewssite.ReviewsRepositoryTest
+org/wecancodeit/reviewssite/ReviewControllerMVCTest.java
+ org.wecancodeit.reviewssite.ReviewControllerMVCTest

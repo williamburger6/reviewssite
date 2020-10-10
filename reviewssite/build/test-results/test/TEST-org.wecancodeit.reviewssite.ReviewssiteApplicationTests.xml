@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.wecancodeit.reviewssite.ReviewssiteApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-09T17:29:34" hostname="UNIT2020-3" time="0.004">
+  <properties/>
+  <testcase name="contextLoads()" classname="org.wecancodeit.reviewssite.ReviewssiteApplicationTests" time="0.004"/>
+  <system-out><![CDATA[2020-10-09 13:29:33.500  INFO 16680 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.wecancodeit.reviewssite.ReviewssiteApplicationTests], using SpringBootContextLoader
+2020-10-09 13:29:33.500  INFO 16680 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [org.wecancodeit.reviewssite.ReviewssiteApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-10-09 13:29:33.500  INFO 16680 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.wecancodeit.reviewssite.ReviewssiteApplicationTests]: ReviewssiteApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-10-09 13:29:33.500  INFO 16680 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.wecancodeit.reviewssite.ReviewssiteApplication for test class org.wecancodeit.reviewssite.ReviewssiteApplicationTests
+2020-10-09 13:29:33.516  INFO 16680 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-10-09 13:29:33.516  INFO 16680 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@76e075be, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@589044eb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2db63e7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7acb9c3b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@f735b59, org.springframework.test.context.event.EventPublishingTestExecutionListener@559ee140, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@c03644f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2a0f1bb0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3fb3343b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1d05566c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@ab3789f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@58b330e2]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-10-09 13:29:33.547  INFO 16680 --- [    Test worker] o.w.r.ReviewssiteApplicationTests        : Starting ReviewssiteApplicationTests on Unit2020-3 with PID 16680 (started by We Can Code IT in C:\Users\user2020\IdeaProjects\reviewssite)
+2020-10-09 13:29:33.547  INFO 16680 --- [    Test worker] o.w.r.ReviewssiteApplicationTests        : No active profile set, falling back to default profiles: default
+2020-10-09 13:29:34.063  INFO 16680 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-09 13:29:34.297  INFO 16680 --- [    Test worker] o.w.r.ReviewssiteApplicationTests        : Started ReviewssiteApplicationTests in 0.782 seconds (JVM running for 4.438)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
