@@ -1,8 +1,0 @@
-org/wecancodeit/reviewssite/ReviewssiteApplication.java
- org.wecancodeit.reviewssite.ReviewssiteApplication
-org/wecancodeit/reviewssite/Review.java
- org.wecancodeit.reviewssite.Review
-org/wecancodeit/reviewssite/ReviewController.java
- org.wecancodeit.reviewssite.ReviewController
-org/wecancodeit/reviewssite/ReviewRepository.java
- org.wecancodeit.reviewssite.ReviewRepository
